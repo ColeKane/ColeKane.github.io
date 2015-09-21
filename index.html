@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Coleman's Dope Ass Webpage</title>
+        <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border: 2px solid;
+                border-radius: 25px;
+            }
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+     <body>
+        <div id="all-contents"> 
+            <nav>
+                <header>Coleman's Page!</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <div class="sidebar">
+                    
+                    <img src="https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/11700866_3754905036500_2923419351172794600_n.jpg?oh=92ad8441f5dc8fbd26f2a711ea126355&oe=56954783">
+                </div>
+
+                <div class="content">
+                    <header>Coleman Russell</header>
+                    <p>Graduate Student at Tulane University</p>
+                </div>
+                
+                <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Coding</li>
+                            <li>Algo Trading</li>
+                            <li>Statistics</li>
+                        </ul>
+                    </section>
+                
+            </main>
+        </div>
+    </body>
+</html>
